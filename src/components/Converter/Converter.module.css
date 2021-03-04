@@ -1,0 +1,140 @@
+.ConverterContainer {
+    height: 70vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+}
+
+.ConverterContent{
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.inputSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    font: 1.5em bolder;
+    border-radius: 15px;
+    overflow-x: hidden;
+}
+
+.inputSections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    font: 1.5em bolder;
+    border-radius: 15px;
+    overflow-x: hidden;
+}
+
+.romanNumeral{
+    height: 70%;
+    padding: .5rem .5rem;
+}
+
+.romanNumeral h4{
+    background: white;
+    font-size: 1.5em;
+    color: black;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    height: auto;
+    overflow-y: auto;
+    width: fit-content;
+}
+
+.inputSections label{
+    line-height: 4rem;
+    font-weight: bolder;
+}
+
+.inputSections input{
+    font-size: 1rem;
+    width: 40%;
+    height: 40%;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    outline: none;
+    border: 2px solid black;
+}
+
+.inputSections button{
+    width: auto;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    margin-left: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+
+.Red{
+    border: 5px solid tomato;
+}
+
+.Green{
+    border: 5px solid green;
+}
+
+@media(max-width: 750px){
+    .romanNumeral h4{
+        font-size: 1.5em;
+        padding: .5rem;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width: 520px){
+    .inputSection{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 70%;
+        font: 1em bold;
+        border-radius: 10px;
+    }
+}
+
+
+@media(max-width: 350px){
+    .inputSections{
+        height: auto;
+        font: 1.2em lighter;
+        border-radius: 10px;
+        overflow-x: hidden;
+    }
+
+    .inputSections label{
+        margin: .5rem 0;
+        line-height: 2rem;
+        font-weight: bolder;
+    }
+    
+    .inputSections input{
+        width: 40%;
+        border-radius: 5px;
+        padding: .5rem;
+    }
+    
+    .inputSections button{
+        width: auto;
+        /* padding: .4rem 1rem; */
+    }
+}

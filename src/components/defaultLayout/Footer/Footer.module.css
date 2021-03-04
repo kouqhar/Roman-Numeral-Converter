@@ -1,0 +1,21 @@
+.Footer{
+    margin: 0;
+    padding: 1rem 1.5rem;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer p{
+    font: lighter 1.5em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+small{
+    color: aqua;
+}
+
+@media(max-width: 520px){
+    .Footer p{
+        font-size: 1.4em;
+    }
+}
