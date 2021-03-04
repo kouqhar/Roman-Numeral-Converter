@@ -30,4 +30,4 @@ npm install
 
 # Deployment :sparkles:
 
-Before deploying your application to the web, Minify or Optimize your `client` application by running the `npm build` react command to optimize your application.
+Before deploying your application to the web, Minify or Optimize your `client` application by running the `npm run build` react command to optimize your application.
