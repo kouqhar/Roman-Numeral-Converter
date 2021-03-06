@@ -1,6 +1,6 @@
 # Roman Numeral Converter
 
-This is an application helps convert Roman numerals to numbers. Find Roman numerals.
+This is an application helps convert numbers to Roman numerals. Find Roman numerals.
 
 # Contact Me :rocket:
 
